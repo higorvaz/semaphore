@@ -99,11 +99,20 @@ Running db Migrations..
  You are all setup Higor!
  Re-launch this program pointing to the configuration file
 
-./semaphore server --config /root/config.json
+
+semaphore server --config /root/config.json
+
+Postgres postgres@192.168.0.103:5432 semaphore
+Tmp Path (projects home) /tmp/semaphore
+Semaphore v2.8.89
+Interface 
+Port :3000
+Server is running
+
 
  To run as daemon:
 
-nohup ./semaphore server --config /root/config.json &
+nohup semaphore server --config /root/config.json &
 
  You can login with higorvaz@gmail.com or root.
 
