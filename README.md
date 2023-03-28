@@ -43,7 +43,74 @@ sudo dpkg -i semaphore_2.8.89_linux_amd64.deb
 
 sudo dpkg -i semaphore_2.8.75_linux_arm64.deb
 
+
+sudo -i
+cd /home/user/semaphore-develop
 semaphore setup
+
+
+Hello! You will now be guided through a setup to:
+
+1. Set up configuration for a MySQL/MariaDB database
+2. Set up a path for your playbooks (auto-created)
+3. Run database Migrations
+4. Set up initial semaphore user & password
+
+What database to use (PG on my tests):
+   1 - MySQL
+   2 - BoltDB
+   3 - PostgreSQL
+ (default 1): 3
+
+db Hostname (default 127.0.0.1:5432): 192.168.0.103:5432
+
+db User (default root): postgres
+
+db Password: ****************
+
+db Name (default semaphore): 
+
+Playbook path (default /tmp/semaphore): 
+
+Web root URL (optional, see https://github.com/ansible-semaphore/semaphore/wiki/Web-root-URL): 
+
+Enable email alerts? (yes/no) (default no): 
+
+Enable telegram alerts? (yes/no) (default no): 
+
+Enable slack alerts? (yes/no) (default no): 
+
+Enable LDAP authentication? (yes/no) (default no): 
+
+Config output directory (default /root): 
+
+Running: mkdir -p /root..
+Configuration written to /root/config.json..
+ Pinging db..
+Running db Migrations..
+
+
+ > Username: root
+ > Email: higorvaz@gmail.com
+      WARN[0062] no rows in result set                         level=Warn
+ > Your name: Higor
+ > Password: **********
+
+ You are all setup Higor!
+ Re-launch this program pointing to the configuration file
+
+./semaphore server --config /root/config.json
+
+ To run as daemon:
+
+nohup ./semaphore server --config /root/config.json &
+
+ You can login with higorvaz@gmail.com or root.
+
+
+
+
+
 
 
 ### Full documentation
