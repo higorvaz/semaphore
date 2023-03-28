@@ -2,18 +2,9 @@
 
 ![Twitter](https://img.shields.io/twitter/follow/semaphoreui?style=social&logo=twitter)
 
-  
- 
-
 ![semaphore](https://snapcraft.io/semaphore/badge.svg)
 
-  
- 
-
 ![StackShare](https://img.shields.io/badge/tech-stack-008ff9)
-
-  
- 
 
 ![Join the chat at https://gitter.im/AnsibleSemaphore/semaphore](https://img.shields.io/gitter/room/AnsibleSemaphore/semaphore?logo=gitter)
 
@@ -103,6 +94,10 @@ semaphore server --config /root/config.json
 ![](https://user-images.githubusercontent.com/9384127/228297888-d2a94814-c1a2-4ec1-a786-96308c85db07.png)
 
 ![](https://user-images.githubusercontent.com/9384127/228296793-815b538f-54a5-4eca-bb5a-ab98487a00a4.png)
+
+![](https://user-images.githubusercontent.com/9384127/228305593-075316d0-249e-40c0-8964-e9215768c6d9.png)
+
+![](https://user-images.githubusercontent.com/9384127/228305895-37a6f54f-36ff-4843-9fef-d429e47ef611.png)
 
 To run as daemon:
 
