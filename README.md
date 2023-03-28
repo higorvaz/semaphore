@@ -57,9 +57,9 @@ Hello! You will now be guided through a setup to:
 4. Set up initial semaphore user & password
 
 What database to use (PG on my tests):
-   1 - MySQL
-   2 - BoltDB
-   3 - PostgreSQL
+- 1 - MySQL
+- 2 - BoltDB
+- 3 - PostgreSQL
  (default 1): 3
 
 db Hostname (default 127.0.0.1:5432): 192.168.0.103:5432
