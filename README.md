@@ -35,18 +35,16 @@ If your project has grown and deploying from the terminal is no longer for you t
 
 ## Installation
 
-GNU nano 7.2    README.md
-wget https://github.com/ansible-semaphor>
-download/v2.8.75/semaphore_2.8.75_linux_>
+wget https://github.com/ansible-semaphore/semaphore/releases/download/v2.8.75/semaphore_2.8.75_linux_arm64.deb
 
-wget https://github.com/ansible-semaphor>
+wget https://github.com/ansible-semaphore/semaphore/releases/download/v2.8.89/semaphore_2.8.89_linux_amd64.deb
 
-$ sudo dpkg -i semaphore_2.8.89_linux_am>
+sudo dpkg -i semaphore_2.8.89_linux_amd64.deb
 
-
-sudo dpkg -i semaphore_2.8.75_linux_arm6>
+sudo dpkg -i semaphore_2.8.75_linux_arm64.deb
 
 semaphore setup
+
 
 ### Full documentation
 https://docs.ansible-semaphore.com/administration-guide/installation
