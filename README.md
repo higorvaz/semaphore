@@ -101,14 +101,14 @@ Running db Migrations..
 
 
 semaphore server --config /root/config.json
-
+'''
   Postgres postgres@192.168.0.103:5432 semaphore
   Tmp Path (projects home) /tmp/semaphore
   Semaphore v2.8.89
   Interface
   Port :3000
   Server is running
-
+'''
 
  To run as daemon:
 
