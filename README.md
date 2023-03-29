@@ -103,6 +103,8 @@ semaphore server --config /root/config.json
 
 ![](https://user-images.githubusercontent.com/9384127/228308843-da4825dc-7f51-4e5b-b9ff-dfc95ecefc91.png)
 
+![](https://user-images.githubusercontent.com/9384127/228641865-1e9fa250-c34a-463a-87ca-f1f8f9b61349.png)
+
 To run as daemon:
 
 nohup semaphore server --config /root/config.json &
